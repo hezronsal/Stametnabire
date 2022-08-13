@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title> Kontak Stasiun Meteorologi Nabire </title>
+	<meta charset="UTF-8">
+  </head>
+  
+  <!-- 1. inline: langsung pada tag
+	   2. internal : file html
+	   3. external : file css sendiri
+  -->
+  
+  <body>
+	<!-- menu website -->
+	<div>
+		<a href="index.html" style="color:red">Home</a>
+		<a href="kontak.html">Kontak<a/>
+	
+	<!--ini kodeku ya, masih tag heading-->
+	<div>
+		<h1>Kontak Stasiun Meteorologi Nabire</h1>
+		<h2> &nbsp;Tutorial Online <span>membuat Website</span> </h2>
+	</div>
+	
+	<!--mebuat form-->
+	<form>
+	   <fieldset>
+		<legend> Nama dan Pesan </legend>
+		<label for="nama">Nama</label>
+		<input type="text" placeholder="Nama User" id="nama">
+		<br>
+		<label for="pesan_user">Pesan</label>
+		<textarea cols="100" rows="7" id="pesan_user"> Pesan saya adalah ...</textarea>
+		<br>
+	   </fieldset>
+		
+	   <fieldset>
+		<legend> Pilihan Data </legend>
+		<label>Hobby</label> <br>
+		<input type="checkbox" name="hobi_user" value="0"> Menggambar
+		<input type="checkbox" name="hobi_user" value="1" checked> Menulis
+		<input type="checkbox" name="hobi_user" value="2"> Tukang Mabuk
+		<br>
+		<label>Gender</label> <br>
+		<input type="radio" name="gender" value="0" checked>Laki-laki
+		<input type="radio" name="gender" value="1">Perempuan 
+		<br>
+		<label>Pelajaran</label>
+		<select>
+			<optgroup label="Frontend">
+				<option value="html">HTML</option>
+				<option value="css">CSS</option>
+			</optgroup>
+			
+			<optgroup label="Backend">
+			<option value="php">PHP</option>
+			<option value="db">DATABASE</option>
+			</optgroup>
+		</select>
+	   </fieldset>
+		
+	<br>	
+	<input type="submit" value="Kirim Data">
+	
+	</form>
+	
+	<br></br>
+	<table border="1">
+	<caption>Daftar Pegawai Stasiun Meteorologi Nabire</caption>
+		<tr>
+			<th>Nama Pegawai</th>
+			<th>NIP</th>
+		</tr>
+		<tr>
+			<td>Hezron</td>
+			<td>199604272014111001</td>
+		</tr>
+	</table>
+	
+	<!--list pada html-->
+	<ul>
+		<li>Hezron</li>
+	</ul>
+	
+	<ol>
+		<li>Hezron</li>
+	</ol>
+	
+	<dl>
+		<dt>Hezron</dt>
+		<dd>User Pertama Stasiun Meteorologi Nabire</dd>
+	</dl>
+	
+	<p>&copy; Hezron Salawane</P>
+  </body>
+</html>

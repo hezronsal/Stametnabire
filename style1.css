@@ -1,0 +1,108 @@
+/*{
+	/*margin: 0px;*/
+
+
+
+body{
+	/* 
+	background-color: #16e7d8;
+	background-color: rgb(255, 0, 0);
+	background-color: #fdfdfd;
+	background-image: url("gambar/ortu.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	*/
+	background: #fdfdfd url("gambar/logobmkg.png") no-repeat fixed right;
+	font-family:sans-serif;
+}
+
+h1{
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+	z-index: -1;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+#text_pendek{
+	font-size: 24px;
+	font-family:sans-serif;
+	background: yellow;
+	font-weight: bold;
+	max-width: 50%;
+	/*visibility: hidden;*/
+	display: none;
+}
+
+#text_panjang{
+	text-align: justify;
+	text-indent: 30px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	line-height: 20px;
+}
+
+#menu_wrap{
+	/*margin: top right bottom left;*/
+	margin: 10px 0 50px 0;
+}
+
+.menu{
+	display: inline-block;
+	/*height: 25px;
+	width: 52px;*/
+	text-decoration: none;
+
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: black;*/
+	border: 2px solid black;
+	padding: 10px;
+}
+
+/*kondisi biasa*/
+.menu:link{
+	background: white;
+	color: white;
+}
+/*kondisi setelah dikunjungi*/
+.menu:visited{
+	background: green;
+}
+/*kondisi hover=mouse berada diatasnya*/
+.menu:hover{
+	background: blue;	
+}
+/*sedang diklik*/
+.menu:active{
+	background: white;
+}
+
+/*---mengatur posisi pada css---*/
+/*--- 1.static, 2.relative, 3.absolute, 4.fixed---*/
+
+#menu_member{
+	position: relative;
+	top: 1px;
+}
+
+#h2_member{
+	background: yellow;
+	position: relative;
+
+}
+
+table{
+	float: left;
+	margin-right: 20px;
+}
+/* menghilangkan efek float ke elemen berikutnya */
+#div_baru{
+	clear: both;
+}
